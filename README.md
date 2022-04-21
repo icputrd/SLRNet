@@ -19,7 +19,7 @@ from seg_utils import *
 from PIL import Image
 
 test_img = "/usb/sara_img/2f900410.14.JPG"
-cfg_p = "config/bodypart_slrnet_cosin_conv_actV2.yaml"
+cfg_p = "data/bodypart_slrnet_cosin_conv_actV2.yaml"
 predict_img = 'predict_2f900410.14.png'
 
 model = load_segmentation_model(config_file=cfg_p)
