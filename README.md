@@ -7,7 +7,7 @@ This repo is built based on [MIT repo from the CSAILVision](https://github.com/C
 # Run
 
 ```
-CUDA_VISIBLE_DEVICES=3 python3 train.py --gpus 3 --cfg config/bodypart_slrnet_cosin_conv_actV2.yaml
+CUDA_VISIBLE_DEVICES=3 python3 train.py --gpus 3 --cfg data/bodypart_slrnet_cosin_conv_actV2.yaml
 ```
 The resulted model would be saved in the 'DIR' specified in the config file. 
 
